@@ -1,0 +1,70 @@
+/*default styling*/
+body{
+    background-image: linear-gradient(	#87CEFA,#FFC0CB,	#00BFFF	,#00BFFF,	#7FFFD4	,#FF00FF);
+}
+html{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: normal;
+   
+}
+/*descendent Selector or combinator selector*/
+header h1{
+    font-weight:400;
+}
+
+header {
+    display:flex;
+   justify-content: space-between;
+margin:0 2rem;
+}
+li{
+    list-style: none;
+    font-size:1.5rem;
+}
+ ul{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display:flex;
+    justify-content:space-between;
+    width: 90%;
+    
+}
+nav{
+    position:relative;/*postion means allow krrr diya hai hum koi bhi text kahi bhi move krr sakte hai*/
+    top: 1rem;
+    width: 20rem;
+}
+/*class Selector*/
+.showcase_img{
+    width:95vw;/*view port eidth it change the size according to browser screen*/
+    margin:1rem;
+}
+article{
+    text-align:center;
+    display:flex;
+    
+    
+}
+.container{
+    margin-right: 1rem;
+    padding :1rem;
+    font-size:1.5rem;
+    margin-bottom:1rem
+}
+footer{
+
+    background-color: black;
+   color:white;
+   height:1.5rem;
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   font-size:1.5rem;
+}
+a{
+    text-decoration:none;
+}
+/*a: pseudo class*/
+a:hover{
+    color:brown;
+}
+    
